@@ -1,4 +1,4 @@
 class Comment < ApplicationRecord
-  belongs_to :dogwalk
+  belongs_to :dog_walk
   belongs_to :user
 end
