@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-07-20
+  hour: 2017-07-20 12:09:56
+  title: MyString
+  description: MyText
+  meeting_point: MyString
+  available_spots: 1
+  user: one
+
+two:
+  date: 2017-07-20
+  hour: 2017-07-20 12:09:56
+  title: MyString
+  description: MyText
+  meeting_point: MyString
+  available_spots: 1
+  user: two
