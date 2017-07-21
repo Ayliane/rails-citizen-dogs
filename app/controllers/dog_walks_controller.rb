@@ -1,9 +1,10 @@
 class DogWalksController < ApplicationController
   def index
-    @dog_walks = dog_walk.all
+    @dog_walks = DogWalk.all
   end
 
   def create
+    @dog_walk = DogWalk.new
   end
 
   def new
