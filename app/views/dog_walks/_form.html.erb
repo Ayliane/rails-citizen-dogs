@@ -1,0 +1,9 @@
+<%= simple_form_for [@dog_walk] do |f| %>
+  <%= f.input :title %>
+  <%= f.input :description %>
+  <%= f.date :date %>
+  <%= f.time :hour %>
+  <%= f.input :meeting_point %>
+  <%= f.input :available_spots %>
+  <%= f.submit "Proposer une ballade", class: "btn btn-primary" %>
+<% end %>
